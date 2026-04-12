@@ -20,3 +20,23 @@ export interface Catalogo {
   categorias: string[];
   productos: Producto[];
 }
+
+// Scraped product format from Firecrawl
+export interface ProductoScraped {
+  id: string;
+  nombre: string;
+  categoria: string;
+  marca: string;
+  descripcion: string;
+  imagen: string;
+  url_fuente: string;
+  especificaciones: Especificacion[];
+}
+
+export interface CatalogoScraped {
+  fuente: string;
+  fecha_scraping?: string;
+  total_productos: number;
+  categorias: string[];
+  productos: ProductoScraped[];
+}
