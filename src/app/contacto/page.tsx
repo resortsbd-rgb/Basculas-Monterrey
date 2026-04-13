@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import ContactoForm from "./ContactoForm";
 
 export const metadata = {
@@ -5,12 +6,7 @@ export const metadata = {
   description: "Solicita una cotización de equipos de pesaje industrial. Distribuidor autorizado Rice Lake y Básculas Metrology en Monterrey.",
 };
 
-interface Props {
-  searchParams: Promise<{ producto?: string }>;
-}
-
-export default async function ContactoPage({ searchParams }: Props) {
-  const { producto } = await searchParams;
+export default function ContactoPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -62,7 +58,9 @@ export default async function ContactoPage({ searchParams }: Props) {
         </div>
 
         {/* Formulario */}
-        <ContactoForm productoInicial={producto} />
+        <Suspense fallback={<div className="p-8 text-center text-gray-400">Cargando formulario...</div>}>
+          <ContactoForm />
+        </Suspense>
       </div>
     </div>
   );

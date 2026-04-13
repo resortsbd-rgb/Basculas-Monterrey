@@ -1,5 +1,6 @@
 "use client";
 import { useState, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import type { Producto } from "@/types/producto";
@@ -8,12 +9,12 @@ import { getImagenProducto } from "@/lib/catalogo";
 interface Props {
   productos: Producto[];
   categorias: string[];
-  categoriaInicial?: string;
 }
 
-export default function CatalogoClient({ productos, categorias, categoriaInicial }: Props) {
+export default function CatalogoClient({ productos, categorias }: Props) {
+  const searchParams = useSearchParams();
   const [busqueda, setBusqueda] = useState("");
-  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(categoriaInicial || "");
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(searchParams.get("categoria") || "");
   const [marcaSeleccionada, setMarcaSeleccionada] = useState("");
 
   const productosFiltrados = useMemo(() => {

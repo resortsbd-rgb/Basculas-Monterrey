@@ -1,17 +1,15 @@
 "use client";
 import { useState } from "react";
+import { useSearchParams } from "next/navigation";
 
-interface Props {
-  productoInicial?: string;
-}
-
-export default function ContactoForm({ productoInicial }: Props) {
+export default function ContactoForm() {
+  const searchParams = useSearchParams();
   const [form, setForm] = useState({
     nombre: "",
     empresa: "",
     email: "",
     telefono: "",
-    producto: productoInicial || "",
+    producto: searchParams.get("producto") || "",
     mensaje: "",
   });
   const [enviado, setEnviado] = useState(false);
