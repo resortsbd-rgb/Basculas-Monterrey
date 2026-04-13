@@ -43,7 +43,7 @@ export default async function ContactoPage({ searchParams }: Props) {
               </div>
               <div>
                 <p className="font-semibold text-gray-800">Email</p>
-                <p className="text-gray-500 text-sm">contacto@basculasmonterrey.com</p>
+                <p className="text-gray-500 text-sm">ventas@basculasmonterrey.com</p>
               </div>
             </div>
 

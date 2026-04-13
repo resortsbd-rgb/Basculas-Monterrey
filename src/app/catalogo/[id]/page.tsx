@@ -127,19 +127,8 @@ export default async function ProductoPage({ params }: Props) {
               Solicitar Cotización
             </Link>
           </div>
-          <div className="mb-4">
-            <a
-              href={producto.url_fuente}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-[#1e3a5f] hover:text-[#e8770a] underline transition-colors"
-            >
-              Ver ficha técnica en fabricante ↗
-            </a>
-          </div>
-
           <p className="text-xs text-gray-400">
-            Fuente: {producto.marca} — Para cotización y disponibilidad contáctanos.
+            Para cotización y disponibilidad contáctanos directamente.
           </p>
         </div>
       </div>
