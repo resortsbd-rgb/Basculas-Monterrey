@@ -1,0 +1,50 @@
+[
+  {
+    "id": "basculas-camioneras",
+    "nombre": "Básculas Camioneras",
+    "descripcion": "Básculas de alta capacidad para pesaje de camiones y vehículos de carga.",
+    "marcas": []
+  },
+  {
+    "id": "plataformas-de-piso",
+    "nombre": "Plataformas de Piso",
+    "descripcion": "Plataformas industriales de piso para pesaje de cargas medianas y pesadas.",
+    "marcas": ["Rice Lake", "Metrology"]
+  },
+  {
+    "id": "basculas-ganaderas",
+    "nombre": "Básculas Ganaderas",
+    "descripcion": "Básculas especializadas para el pesaje de ganado en ranchos y rastros.",
+    "marcas": ["Metrology"]
+  },
+  {
+    "id": "indicadores-de-peso",
+    "nombre": "Indicadores de Peso",
+    "descripcion": "Indicadores y controladores digitales de peso para todo tipo de aplicación industrial.",
+    "marcas": ["Rice Lake", "Metrology", "NS Global"]
+  },
+  {
+    "id": "celdas-de-carga",
+    "nombre": "Celdas de Carga",
+    "descripcion": "Sensores de fuerza y celdas de carga para medición precisa en sistemas de pesaje.",
+    "marcas": ["Rice Lake", "Metrology", "NS Global"]
+  },
+  {
+    "id": "cajas-de-suma",
+    "nombre": "Cajas de Suma",
+    "descripcion": "Cajas de unión y suma para la conexión de múltiples celdas de carga en un sistema.",
+    "marcas": ["Rice Lake", "Metrology", "NS Global"]
+  },
+  {
+    "id": "basculas-de-mesa-y-recibo",
+    "nombre": "Básculas de Mesa y Recibo",
+    "descripcion": "Básculas compactas para mostrador, recibo de mercancía y uso comercial.",
+    "marcas": ["Rice Lake", "Metrology", "NS Global"]
+  },
+  {
+    "id": "basculas-aereas",
+    "nombre": "Básculas Aéreas",
+    "descripcion": "Básculas colgantes y de grúa para pesaje aéreo de cargas suspendidas.",
+    "marcas": []
+  }
+]

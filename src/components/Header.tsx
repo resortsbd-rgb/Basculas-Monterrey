@@ -9,15 +9,15 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/images/logo-basculas-monterrey.jpg"
+              src="/images/logo.jpeg"
               alt="Básculas Monterrey — Distribuidor Autorizado Rice Lake"
-              height={56}
-              width={200}
-              style={{ height: 56, width: "auto" }}
+              height={72}
+              width={140}
+              style={{ height: 72, width: "auto" }}
               className="object-contain"
               priority
             />
@@ -25,9 +25,9 @@ export default function Header() {
 
           {/* Nav desktop */}
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-            <Link href="/" className="text-gray-700 hover:text-[#8B1A1A] transition-colors">Inicio</Link>
-            <Link href="/catalogo" className="text-gray-700 hover:text-[#8B1A1A] transition-colors">Catálogo</Link>
-            <Link href="/calibracion" className="text-gray-700 hover:text-[#8B1A1A] transition-colors">Calibración</Link>
+            <Link href="/" className="text-gray-700 hover:text-[#DC2626] transition-colors">Inicio</Link>
+            <Link href="/catalogo" className="text-gray-700 hover:text-[#DC2626] transition-colors">Catálogo</Link>
+            <Link href="/calibracion" className="text-gray-700 hover:text-[#DC2626] transition-colors">Calibración</Link>
             <a
               href="https://wa.me/528114814111"
               target="_blank"
@@ -42,7 +42,7 @@ export default function Header() {
             </a>
             <Link
               href="/contacto"
-              className="bg-[#8B1A1A] hover:bg-[#6e1414] text-white font-semibold px-5 py-2 rounded-lg transition-colors"
+              className="bg-[#DC2626] hover:bg-[#b91c1c] text-white font-semibold px-5 py-2 rounded-lg transition-colors"
             >
               Cotizar
             </Link>
@@ -66,9 +66,9 @@ export default function Header() {
         {/* Nav mobile */}
         {menuOpen && (
           <nav className="md:hidden pb-4 flex flex-col gap-3 text-sm font-medium border-t border-gray-100 pt-3">
-            <Link href="/" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-[#8B1A1A]">Inicio</Link>
-            <Link href="/catalogo" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-[#8B1A1A]">Catálogo</Link>
-            <Link href="/calibracion" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-[#8B1A1A]">Calibración</Link>
+            <Link href="/" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-[#DC2626]">Inicio</Link>
+            <Link href="/catalogo" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-[#DC2626]">Catálogo</Link>
+            <Link href="/calibracion" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-[#DC2626]">Calibración</Link>
             <a
               href="https://wa.me/528114814111"
               target="_blank"
@@ -84,7 +84,7 @@ export default function Header() {
             <Link
               href="/contacto"
               onClick={() => setMenuOpen(false)}
-              className="bg-[#8B1A1A] hover:bg-[#6e1414] text-white font-semibold px-4 py-2 rounded-lg text-center transition-colors"
+              className="bg-[#DC2626] hover:bg-[#b91c1c] text-white font-semibold px-4 py-2 rounded-lg text-center transition-colors"
             >
               Cotizar
             </Link>

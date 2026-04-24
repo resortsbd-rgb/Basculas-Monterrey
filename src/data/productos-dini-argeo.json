@@ -1,0 +1,163 @@
+[
+  {
+    "id": "3590egtt-touchscreen-indicator",
+    "marca": "Dini Argeo",
+    "categoria": "indicadores-de-peso",
+    "titulo": "Indicador de Peso 3590EGTT Touchscreen",
+    "descripcion": "Indicador de peso avanzado con pantalla táctil resistiva a color de 5.7\" retroiluminada, apta para uso con guantes. Carcasa de acero inoxidable AISI304 con protección IP68. Incluye software multiidioma (italiano, inglés, alemán, francés, español), teclado alfanumérico de 15 teclas, semáforo LED tricolor de alta luminosidad, memoria alibi integrada y 3 puertos seriales. Convertidor A/D de 24 bits, 4 canales, hasta 3200 conv./seg. Soporta hasta 16 celdas de carga analógicas de 350 Ohm.",
+    "url_fuente": "https://www.diniargeo.com/dini-product/3590egtt-touchscreen-weight-indicator-for-industrial-applications/",
+    "imagenes": [
+      "https://www.diniargeo.com/media/h31eanlf/3590egtt.jpg?mode=max&width=500&rnd=132733386387370000",
+      "https://www.diniargeo.com/media/fz1pleh0/3590egtt_detail.jpg",
+      "https://www.diniargeo.com/media/osykun55/359egtt_bottom.jpg",
+      "https://www.diniargeo.com/media/hcddzrxs/3590egtt_back.jpg"
+    ],
+    "especificaciones": [
+      { "label": "Pantalla", "value": "Touch screen resistiva a color 5.7\" (120x90mm)" },
+      { "label": "Teclado", "value": "15 teclas alfanuméricas mecánicas" },
+      { "label": "Carcasa", "value": "Acero inoxidable AISI304" },
+      { "label": "Protección", "value": "IP68" },
+      { "label": "Dimensiones", "value": "328 x 186 x 144 mm" },
+      { "label": "Convertidor A/D", "value": "24 bits, 4 canales, hasta 3200 conv./seg." },
+      { "label": "Canales analógicos", "value": "4 independientes" },
+      { "label": "Celdas de carga", "value": "Hasta 16 analógicas de 350 Ohm (45 de 1000 Ohm)" },
+      { "label": "Divisiones máx.", "value": "1,000,000 en uso interno; resolución interna 3,000,000" },
+      { "label": "Aprobación CE-M", "value": "Hasta 10,000e OIML o 3x3000e @0.3µV/e" },
+      { "label": "Puertos seriales", "value": "3 (2 RS232, 1 RS232/RS485)" },
+      { "label": "Salidas digitales", "value": "4 optoacopladas" },
+      { "label": "Entradas digitales", "value": "2 optoacopladas" },
+      { "label": "Alimentación", "value": "110-240 Vac" }
+    ]
+  },
+  {
+    "id": "3590egtb8-panel-touchscreen-indicator",
+    "marca": "Dini Argeo",
+    "categoria": "indicadores-de-peso",
+    "titulo": "Indicador de Peso 3590EGTB8 Panel Touchscreen 8\"",
+    "descripcion": "Indicador de peso digital para montaje en panel con pantalla táctil gráfica retroiluminada de 8 pulgadas (160x120mm). Panel frontal de acero inoxidable con junta impermeable e IP65 frontal. Soporta hasta 16 celdas de carga analógicas de 350 Ohm y principales celdas digitales. Incluye puerto Ethernet estándar, servidor web integrado para configuración remota y memoria alibi integrada en tarjeta madre. Aprobable CE-M (OIML R-76/EN 45501).",
+    "url_fuente": "https://www.diniargeo.com/dini-product/3590egtb8-touch-8-inch-panel-touchscreen-weight-indicator/",
+    "imagenes": [
+      "https://www.diniargeo.com/media/swfdr5kp/3590egtb8.jpg",
+      "https://www.diniargeo.com/media/grtpwwbd/3590egtb8_back.jpg"
+    ],
+    "especificaciones": [
+      { "label": "Pantalla", "value": "Gráfica táctil retroiluminada 8\" (160x120mm)" },
+      { "label": "Dimensiones totales", "value": "280 x 220 x 80 mm" },
+      { "label": "Plantilla de corte", "value": "188 x 252 mm" },
+      { "label": "Protección frontal", "value": "IP65" },
+      { "label": "Convertidor A/D", "value": "24 bits, 4 canales, hasta 3200 conv./seg." },
+      { "label": "Celdas de carga", "value": "Hasta 16 analógicas (350Ω) o 45 (1000Ω)" },
+      { "label": "Divisiones máx.", "value": "1,000,000 en pantalla; 3,000,000 internos" },
+      { "label": "Alimentación", "value": "12-24 Vdc" },
+      { "label": "Divisiones legales", "value": "Hasta 10,000e OIML o 3x3000e CE-M" },
+      { "label": "Comunicaciones", "value": "1 Ethernet, 2 RS232, 1 RS232/RS485, USB" },
+      { "label": "E/S opcionales", "value": "Hasta 16 salidas y 8 entradas optoacopladas" },
+      { "label": "Reloj en tiempo real", "value": "Sí, con almacenamiento permanente de datos" }
+    ]
+  },
+  {
+    "id": "tpwlk-pallet-truck-scale",
+    "marca": "Dini Argeo",
+    "categoria": "plataformas-de-piso",
+    "titulo": "Báscula para Patín TPWLK Serie Logística",
+    "descripcion": "Báscula para patín de la serie logística con batería recargable extraíble Instaplug e impresora opcional para registro de operaciones de pesaje. Fabricada, calibrada y ajustada en Italia con pesas patrón certificadas. Disponible en versión aprobada para uso con terceros. Incluye 4 celdas de carga aprobadas IP68 en acero inoxidable. Pantalla LCD retroiluminada de 25 mm para fácil lectura en ambientes con poca luz.",
+    "url_fuente": "https://www.diniargeo.com/dini-product/tpwlk-logistics-series-pallet-truck-scale/",
+    "imagenes": [
+      "https://www.diniargeo.com/media/nrehnszl/tpwlk.png?mode=max&width=500&rnd=133899064868970000",
+      "https://www.diniargeo.com/media/dqglqgdy/instaplug_tpwa_battery.png",
+      "https://www.diniargeo.com/media/jlfaoj4s/tpwa_wheels.png",
+      "https://www.diniargeo.com/media/s04hmj1u/imballo_tpw-1.jpg?width=350&height=350"
+    ],
+    "especificaciones": [
+      { "label": "Capacidad máxima", "value": "2,000 kg" },
+      { "label": "Resolución (uso interno)", "value": "0.2 kg" },
+      { "label": "Resolución (aprobada)", "value": "0.5 / 1 kg" },
+      { "label": "Exactitud (uso interno)", "value": "±1 kg" },
+      { "label": "Dimensiones de horquillas", "value": "1150 x 550 x 85 mm" },
+      { "label": "Altura de elevación", "value": "200 mm" },
+      { "label": "Peso del equipo", "value": "113 kg aprox. (sin embalaje)" },
+      { "label": "Protección", "value": "IP65 (IP20 con impresora)" },
+      { "label": "Temperatura de trabajo", "value": "-10° a +40°C" },
+      { "label": "Autonomía de batería", "value": "~80 horas (ampliable)" },
+      { "label": "Pantalla", "value": "LCD 25 mm retroiluminada" },
+      { "label": "Teclado", "value": "Impermeable, 17 teclas" },
+      { "label": "Cargador", "value": "230Vac 50Hz" }
+    ]
+  },
+  {
+    "id": "portable-kit-axle-weighing",
+    "marca": "Dini Argeo",
+    "categoria": "basculas-camioneras",
+    "titulo": "Kit Portátil para Pesaje de Ejes de Vehículos",
+    "descripcion": "Sistema portátil compuesto por dos plataformas WWS y terminal de pesaje con pantalla táctil e impresora integrada (versión cableada). Permite pesar cualquier tipo de vehículo independientemente del número de ejes y calcular el peso total. Incluye base de datos de 500 vehículos, texto personalizable y tara preestablecida. Superficie de carga en aleación de aluminio de alta resistencia. Protección IP68 contra agua y polvo. Con ruedas integradas para fácil reposicionamiento. Aprobado CE conforme Directiva 2014/31/EU.",
+    "url_fuente": "https://www.diniargeo.com/dini-product/portable-kit-for-vehicle-axle-weighing/",
+    "imagenes": [
+      "https://www.diniargeo.com/media/odxollay/2wwset.png"
+    ],
+    "especificaciones": [
+      { "label": "Capacidades disponibles", "value": "1,500 - 20,000 kg" },
+      { "label": "Dimensiones de plataforma", "value": "500x400 mm a 900x700 mm" },
+      { "label": "Altura de plataforma", "value": "58-75 mm" },
+      { "label": "División (d)", "value": "0.5-10 kg según capacidad" },
+      { "label": "Protección", "value": "IP68" },
+      { "label": "Autonomía de batería", "value": "10 horas (recargable)" },
+      { "label": "Velocidad máx. en movimiento", "value": "5 km/h" },
+      { "label": "Exactitud dinámica", "value": "5%" },
+      { "label": "Indicador incluido", "value": "3590ETKR09-3 touch screen con impresora en maletín" },
+      { "label": "Certificaciones", "value": "CE (2014/31/EU), OIML R134" }
+    ]
+  },
+  {
+    "id": "portable-kit-vehicle-weighing-wireless",
+    "marca": "Dini Argeo",
+    "categoria": "basculas-camioneras",
+    "titulo": "Kit Portátil Inalámbrico para Pesaje de Vehículos 2 a 4 Ejes",
+    "descripcion": "Sistema portátil inalámbrico compuesto por plataformas WWS (patentadas por Dini Argeo) para pesaje de vehículos y camiones de 2 a 4 ejes. Soporta hasta 16 plataformas inalámbricas simultáneas. Indicador táctil con impresora integrada, puerto USB y batería recargable de 10 horas de autonomía. Software AF08 calcula pesos individuales por eje y totales del vehículo. Incluye base de datos de 500 vehículos, verificación de equilibrio con centro de gravedad y salida impresa personalizable. Aprobado CE conforme Directiva 2014/31/EU (NAWI).",
+    "url_fuente": "https://www.diniargeo.com/dini-product/weighing-kit-for-vehicles-and-trucks-from-2-to-4-axles-wireless-version-with-touch-screen/",
+    "imagenes": [
+      "https://www.diniargeo.com/media/lgefbf3t/8wwsetw.png"
+    ],
+    "especificaciones": [
+      { "label": "Protección", "value": "IP68" },
+      { "label": "Autonomía de batería", "value": "10 horas" },
+      { "label": "Plataformas simultáneas máx.", "value": "16 inalámbricas" },
+      { "label": "Base de datos de vehículos", "value": "500 vehículos" },
+      { "label": "Aprobación CE", "value": "Directiva 2014/31/EU (NAWI)" },
+      { "label": "Capacidades disponibles", "value": "1.5T a 20T" },
+      { "label": "Dimensiones de plataforma", "value": "565x400x58mm, 750x450x58mm, 950x500x58mm" },
+      { "label": "División", "value": "0.5 kg a 10 kg" },
+      { "label": "Conectividad", "value": "Inalámbrico 2.4G, USB, impresora integrada" }
+    ]
+  },
+  {
+    "id": "dfwx-multifunction-weight-indicator",
+    "marca": "Dini Argeo",
+    "categoria": "indicadores-de-peso",
+    "titulo": "Indicador de Peso Multifunción DFWX IP68/IP69K",
+    "descripcion": "Indicador de peso compacto y robusto en acero inoxidable AISI304 con protección IP68 e IP69K contra chorros de agua a alta presión y temperatura. Pantalla LCD de 6 dígitos de 25mm con retroiluminación RGB (7 colores seleccionables). Realiza simultáneamente pesaje, conversión de unidades, conteo de piezas, pesaje de animales y control de peso. Calibración digital desde teclado o PC con DINITOOLS. Soporta hasta 16 celdas de carga. Disponible con batería de litio interna de hasta 100 horas de autonomía (modelo DFWXB).",
+    "url_fuente": "https://www.diniargeo.com/dini-product/dfwx-ip68-and-ip69k-multifunction-weight-indicator/",
+    "imagenes": [
+      "https://www.diniargeo.com/media/qqsltpus/dfwx_con-icone.png",
+      "https://www.diniargeo.com/media/mbnj35y5/dfwx_schermata-gialla.png",
+      "https://www.diniargeo.com/media/y4epl3c1/dfwx_schermata-verde.png",
+      "https://www.diniargeo.com/media/eaah1lgy/dfwx_schermata-rossa.png",
+      "https://www.diniargeo.com/media/dnhfs4l3/schema-dfwx.jpg"
+    ],
+    "especificaciones": [
+      { "label": "Material", "value": "Acero inoxidable AISI304" },
+      { "label": "Protección", "value": "IP68 e IP69K" },
+      { "label": "Pantalla", "value": "LCD 6 dígitos 25mm con retroiluminación RGB (7 colores)" },
+      { "label": "Dimensiones", "value": "170 x 200 x 70 mm" },
+      { "label": "Teclado", "value": "21 teclas numérico-funcionales" },
+      { "label": "Celdas de carga", "value": "Hasta 16 celdas de 350Ω" },
+      { "label": "Clase metrológica", "value": "Clase III o IIII, hasta 10,000e por rango" },
+      { "label": "Resolución interna", "value": "Hasta 3,000,000 puntos" },
+      { "label": "Linealización", "value": "Hasta 8 puntos" },
+      { "label": "Comunicaciones estándar", "value": "RS232, RS485, USB-C" },
+      { "label": "Comunicaciones opcionales", "value": "Ethernet TCP/IP, Wi-Fi, Radiofrecuencia, BLE 5.0, salida analógica" },
+      { "label": "Alimentación", "value": "110/240 Vac" },
+      { "label": "Batería opcional", "value": "Litio interna hasta 100h (modelo DFWXB)" },
+      { "label": "Certificación", "value": "EU Type Examination Certificate (EN 45501:2015)" }
+    ]
+  }
+]

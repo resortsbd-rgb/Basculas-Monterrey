@@ -4,11 +4,11 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import type { Producto } from "@/types/producto";
-import { getImagenProducto } from "@/lib/catalogo";
+import { getImagenProducto, type CategoriaItem } from "@/lib/catalogo";
 
 interface Props {
   productos: Producto[];
-  categorias: string[];
+  categorias: CategoriaItem[];
 }
 
 export default function CatalogoClient({ productos, categorias }: Props) {
@@ -35,8 +35,8 @@ export default function CatalogoClient({ productos, categorias }: Props) {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-[#1e3a5f] mb-2">Catálogo de Productos</h1>
-        <p className="text-gray-500">{productos.length} productos disponibles · Rice Lake y Básculas Metrology</p>
+        <h1 className="text-3xl font-bold text-black mb-2">Catálogo de Productos</h1>
+        <p className="text-gray-500">{productos.length} productos disponibles · Rice Lake, Metrology, NS Global y Dini Argeo</p>
       </div>
 
       {/* Filtros */}
@@ -51,7 +51,7 @@ export default function CatalogoClient({ productos, categorias }: Props) {
             placeholder="Buscar productos..."
             value={busqueda}
             onChange={(e) => setBusqueda(e.target.value)}
-            className="w-full pl-10 pr-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1e3a5f] bg-white"
+            className="w-full pl-10 pr-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#DC2626] bg-white"
           />
         </div>
 
@@ -59,11 +59,11 @@ export default function CatalogoClient({ productos, categorias }: Props) {
         <select
           value={categoriaSeleccionada}
           onChange={(e) => setCategoriaSeleccionada(e.target.value)}
-          className="px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1e3a5f] bg-white min-w-[200px]"
+          className="px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#DC2626] bg-white min-w-[200px]"
         >
           <option value="">Todas las categorías</option>
           {categorias.map((cat) => (
-            <option key={cat} value={cat}>{cat}</option>
+            <option key={cat.id} value={cat.id}>{cat.nombre}</option>
           ))}
         </select>
 
@@ -71,7 +71,7 @@ export default function CatalogoClient({ productos, categorias }: Props) {
         <select
           value={marcaSeleccionada}
           onChange={(e) => setMarcaSeleccionada(e.target.value)}
-          className="px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1e3a5f] bg-white min-w-[160px]"
+          className="px-4 py-2.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#DC2626] bg-white min-w-[160px]"
         >
           <option value="">Todas las marcas</option>
           {marcas.map((m) => (
@@ -110,7 +110,7 @@ export default function CatalogoClient({ productos, categorias }: Props) {
               <Link
                 key={producto.id}
                 href={`/catalogo/${producto.id}`}
-                className="group bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-lg hover:border-[#e8770a] transition-all"
+                className="group bg-white rounded-xl overflow-hidden border border-gray-200 hover:shadow-lg hover:border-[#DC2626] transition-all"
               >
                 <div className="relative h-44 bg-gray-50 overflow-hidden">
                   {imagen !== "/placeholder.jpg" ? (
@@ -128,19 +128,19 @@ export default function CatalogoClient({ productos, categorias }: Props) {
                       </svg>
                     </div>
                   )}
-                  <span className="absolute top-2 left-2 bg-[#1e3a5f] text-white text-xs px-2 py-0.5 rounded font-medium">
+                  <span className="absolute top-2 left-2 bg-[#DC2626] text-white text-xs px-2 py-0.5 rounded font-medium">
                     {producto.marca}
                   </span>
                 </div>
                 <div className="p-4">
-                  <p className="text-xs text-[#e8770a] font-medium mb-1 truncate">{producto.categoria}</p>
-                  <h3 className="font-semibold text-gray-800 text-sm mb-1 line-clamp-2 group-hover:text-[#1e3a5f] leading-snug">
+                  <p className="text-xs text-[#DC2626] font-medium mb-1 truncate">{producto.categoria}</p>
+                  <h3 className="font-semibold text-gray-800 text-sm mb-1 line-clamp-2 group-hover:text-[#DC2626] leading-snug">
                     {producto.titulo}
                   </h3>
                   {producto.descripcion && (
                     <p className="text-xs text-gray-400 line-clamp-2 mt-1">{producto.descripcion}</p>
                   )}
-                  <p className="text-xs text-[#1e3a5f] font-medium mt-3 group-hover:underline">Ver detalles →</p>
+                  <p className="text-xs text-[#DC2626] font-medium mt-3 group-hover:underline">Ver detalles →</p>
                 </div>
               </Link>
             );

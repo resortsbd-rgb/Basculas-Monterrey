@@ -1,15 +1,15 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Calibración y Mantenimiento NOM | Básculas Monterrey",
-  description: "Servicio de calibración y mantenimiento de básculas industriales en Monterrey conforme a NOM-010-SCFI. Certificación, ajuste y verificación de equipos de pesaje.",
+  title: "Calibración y Mantenimiento | Básculas Monterrey",
+  description: "Servicio de calibración y mantenimiento de básculas industriales en Monterrey bajo norma NMX-EC-17025-IMNC-2018 (ISO/IEC 17025:2017). Certificación, ajuste y verificación de equipos de pesaje.",
 };
 
 const servicios = [
   {
     icono: "⚖️",
-    titulo: "Calibración NOM-010-SCFI",
-    descripcion: "Calibración de básculas y equipos de pesaje conforme a la Norma Oficial Mexicana NOM-010-SCFI vigente. Emitimos certificado de calibración con trazabilidad metrológica.",
+    titulo: "Calibración NMX-EC-17025-IMNC-2018",
+    descripcion: "Calibración bajo norma NMX-EC-17025-IMNC-2018 (ISO/IEC 17025:2017). Emitimos certificado de calibración con trazabilidad metrológica.",
     detalle: ["Básculas industriales de piso", "Básculas para camión y vehículos", "Indicadores y controladores de peso", "Celdas de carga"],
   },
   {
@@ -47,7 +47,7 @@ const servicios = [
 const normativas = [
   { clave: "NOM-010-SCFI-1994", titulo: "Instrumentos de medición de masa", alcance: "Básculas y balanzas de uso no automático" },
   { clave: "NOM-011-SCFI-1994", titulo: "Instrumentos de pesaje de funcionamiento automático", alcance: "Verificadoras de peso y básculas de banda" },
-  { clave: "NMX-CH-140-IMNC", titulo: "Metrología — Calibración", alcance: "Requisitos para laboratorios de calibración" },
+  { clave: "NMX-EC-17025-IMNC-2018", titulo: "Calibración bajo norma NMX-EC-17025-IMNC-2018 (ISO/IEC 17025:2017)", alcance: "Requisitos para laboratorios de calibración y ensayo" },
   { clave: "ISO 9001:2015", titulo: "Sistema de Gestión de Calidad", alcance: "Procesos de calibración y mantenimiento" },
 ];
 
@@ -66,7 +66,7 @@ export default function CalibracionPage() {
             <span className="text-[#e8770a]">de Básculas Industriales</span>
           </h1>
           <p className="text-lg text-blue-200 mb-8 max-w-2xl mx-auto">
-            Servicio técnico especializado en Monterrey, N.L. Calibración conforme a NOM-010-SCFI
+            Servicio técnico especializado en Monterrey, N.L. Calibración bajo norma NMX-EC-17025-IMNC-2018 (ISO/IEC 17025:2017)
             con trazabilidad metrológica y certificado oficial.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -147,7 +147,7 @@ export default function CalibracionPage() {
                 { paso: "01", titulo: "Contacto y diagnóstico", desc: "Escríbenos por WhatsApp o usa el formulario. Nos describes tu equipo y necesidades." },
                 { paso: "02", titulo: "Cotización sin cargo", desc: "Te enviamos una cotización detallada con el alcance del servicio, tiempo estimado y costo." },
                 { paso: "03", titulo: "Servicio en sitio o taller", desc: "Nuestros técnicos van a tu planta o recibimos el equipo en nuestro taller en Monterrey." },
-                { paso: "04", titulo: "Certificado y entrega", desc: "Entregamos el equipo calibrado con su certificado NOM y reporte técnico detallado." },
+                { paso: "04", titulo: "Certificado y entrega", desc: "Entregamos el equipo calibrado con su certificado bajo norma NMX-EC-17025-IMNC-2018 (ISO/IEC 17025:2017) y reporte técnico detallado." },
               ].map((item) => (
                 <div key={item.paso} className="relative flex gap-6 items-start">
                   <div className="flex-shrink-0 w-16 h-16 bg-[#1e3a5f] text-white rounded-full flex items-center justify-center font-extrabold text-lg z-10">
