@@ -208,7 +208,7 @@ export default function Home() {
               {
                 icon: "🔧",
                 titulo: "Soporte Técnico",
-                desc: "Instalación, calibración y mantenimiento de equipos de pesaje por técnicos certificados.",
+                desc: "Instalación, calibración y mantenimiento de equipos de pesaje con atención técnica especializada.",
               },
               {
                 icon: "📦",
