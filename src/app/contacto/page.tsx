@@ -2,8 +2,8 @@ import { Suspense } from "react";
 import ContactoForm from "./ContactoForm";
 
 export const metadata = {
-  title: "Contacto y Cotización | Básculas Monterrey",
-  description: "Solicita una cotización de equipos de pesaje industrial. Distribuidor autorizado Rice Lake y Básculas Metrology en Monterrey.",
+  title: "Cotizar Básculas Industriales y Servicios en Monterrey | Básculas Monterrey",
+  description: "Solicita por WhatsApp una cotización de básculas industriales, calibración o mantenimiento. Comparte capacidad, cantidad y ciudad para recibir atención comercial.",
   alternates: { canonical: "/contacto" },
 };
 
@@ -13,10 +13,15 @@ export default function ContactoPage() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Info */}
         <div>
-          <h1 className="text-3xl font-bold text-[#1e3a5f] mb-3">Contáctanos</h1>
+          <h1 className="text-3xl font-bold text-[#1e3a5f] mb-3">Cotiza equipos y servicios por WhatsApp</h1>
           <p className="text-gray-600 mb-8 leading-relaxed">
-            ¿Necesitas una cotización o información sobre algún producto? Completa el formulario y un asesor te contactará a la brevedad.
+            Cuéntanos qué equipo necesitas o qué servicio requiere tu báscula. Prepararemos un mensaje con los datos de tu solicitud para que lo revises y lo envíes a nuestro WhatsApp comercial.
           </p>
+
+          <div className="bg-green-50 border border-green-200 rounded-xl p-4 mb-8 text-sm text-green-900">
+            <p className="font-semibold mb-1">¿Qué sucede después?</p>
+            <p>Al continuar se abrirá WhatsApp con tu solicitud lista. Revisa los datos y pulsa Enviar allí. El formulario no envía información por sí solo.</p>
+          </div>
 
           <div className="space-y-6">
             <div className="flex items-start gap-4">
