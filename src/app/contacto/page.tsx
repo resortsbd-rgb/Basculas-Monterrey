@@ -4,6 +4,7 @@ import ContactoForm from "./ContactoForm";
 export const metadata = {
   title: "Contacto y Cotización | Básculas Monterrey",
   description: "Solicita una cotización de equipos de pesaje industrial. Distribuidor autorizado Rice Lake y Básculas Metrology en Monterrey.",
+  alternates: { canonical: "/contacto" },
 };
 
 export default function ContactoPage() {
