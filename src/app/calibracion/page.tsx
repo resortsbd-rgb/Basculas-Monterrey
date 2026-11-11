@@ -12,7 +12,7 @@ const servicios = [
     icono: "⚖️",
     titulo: "Calibración de Básculas Industriales",
     descripcion: "Coordinamos servicios de calibración según el equipo y las necesidades del cliente, con apoyo de laboratorios especializados. Confirma al cotizar el alcance y los documentos requeridos.",
-    detalle: ["Básculas industriales de piso", "Básculas para camión y vehículos", "Indicadores y controladores de peso", "Celdas de carga"],
+    detalle: ["Básculas industriales de piso", "Básculas para camión y vehículos"],
   },
   {
     icono: "🔧",
