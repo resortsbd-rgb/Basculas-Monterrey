@@ -5,6 +5,7 @@ import CatalogoClient from "./CatalogoClient";
 export const metadata = {
   title: "Catálogo de Productos | Básculas Monterrey",
   description: "Catálogo completo de básculas industriales, indicadores, celdas de carga y más. Rice Lake, Metrology, NS Global y Dini Argeo.",
+  alternates: { canonical: "/catalogo" },
 };
 
 export default function CatalogoPage() {
