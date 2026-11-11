@@ -3,15 +3,15 @@ import JsonLd from "@/components/JsonLd";
 
 export const metadata = {
   title: "Calibración y Mantenimiento | Básculas Monterrey",
-  description: "Servicio de calibración y mantenimiento de básculas industriales en Monterrey bajo norma NMX-EC-17025-IMNC-2018 (ISO/IEC 17025:2017). Certificación, ajuste y verificación de equipos de pesaje.",
+  description: "Solicita calibración y mantenimiento de básculas industriales en Monterrey. Colaboración con laboratorios especializados y atención técnica para empresas.",
   alternates: { canonical: "/calibracion" },
 };
 
 const servicios = [
   {
     icono: "⚖️",
-    titulo: "Calibración NMX-EC-17025-IMNC-2018",
-    descripcion: "Calibración bajo norma NMX-EC-17025-IMNC-2018 (ISO/IEC 17025:2017). Emitimos certificado de calibración con trazabilidad metrológica.",
+    titulo: "Calibración de Básculas Industriales",
+    descripcion: "Coordinamos servicios de calibración según el equipo y las necesidades del cliente, con apoyo de laboratorios especializados. Confirma al cotizar el alcance y los documentos requeridos.",
     detalle: ["Básculas industriales de piso", "Básculas para camión y vehículos", "Indicadores y controladores de peso", "Celdas de carga"],
   },
   {
@@ -29,7 +29,7 @@ const servicios = [
   {
     icono: "📋",
     titulo: "Verificación Metrológica",
-    descripcion: "Verificación oficial de instrumentos de medición para cumplimiento con SEMARNAT, PROFECO y otras dependencias gubernamentales.",
+    descripcion: "Orientación sobre las necesidades de verificación de instrumentos de pesaje y coordinación del servicio aplicable según el equipo y su uso.",
     detalle: ["Pruebas de exactitud y linealidad", "Prueba de repetibilidad", "Informe técnico detallado", "Certificado con número de folio"],
   },
   {
@@ -44,13 +44,6 @@ const servicios = [
     descripcion: "Asistencia técnica vía WhatsApp y teléfono para diagnóstico rápido de fallas y orientación en el uso del equipo.",
     detalle: ["Diagnóstico vía WhatsApp", "Guías de solución de problemas", "Actualizaciones de software", "Respuesta en menos de 2 horas"],
   },
-];
-
-const normativas = [
-  { clave: "NOM-010-SCFI-1994", titulo: "Instrumentos de medición de masa", alcance: "Básculas y balanzas de uso no automático" },
-  { clave: "NOM-011-SCFI-1994", titulo: "Instrumentos de pesaje de funcionamiento automático", alcance: "Verificadoras de peso y básculas de banda" },
-  { clave: "NMX-EC-17025-IMNC-2018", titulo: "Calibración bajo norma NMX-EC-17025-IMNC-2018 (ISO/IEC 17025:2017)", alcance: "Requisitos para laboratorios de calibración y ensayo" },
-  { clave: "ISO 9001:2015", titulo: "Sistema de Gestión de Calidad", alcance: "Procesos de calibración y mantenimiento" },
 ];
 
 const preguntasFrecuentes = [
@@ -89,15 +82,14 @@ export default function CalibracionPage() {
         <div className="absolute top-0 left-0 right-0 h-1 bg-[#e8770a]" />
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-block bg-[#e8770a] text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wide mb-6">
-            Servicio Certificado
+            Atención Técnica Especializada
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-5 leading-tight">
             Calibración y Mantenimiento<br />
             <span className="text-[#e8770a]">de Básculas Industriales</span>
           </h1>
           <p className="text-lg text-blue-200 mb-8 max-w-2xl mx-auto">
-            Servicio técnico especializado en Monterrey, N.L. Calibración bajo norma NMX-EC-17025-IMNC-2018 (ISO/IEC 17025:2017)
-            con trazabilidad metrológica y certificado oficial.
+            Servicio técnico en Monterrey, N.L. y colaboración con laboratorios especializados con los que hemos trabajado durante años; algunas relaciones de trabajo alcanzan hasta 20 años.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -146,22 +138,12 @@ export default function CalibracionPage() {
         </div>
       </section>
 
-      {/* Normativas */}
+      {/* Colaboración técnica */}
       <section className="py-16 px-4 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-[#1e3a5f] text-center mb-2">Marco Normativo</h2>
-          <p className="text-gray-500 text-center mb-10">Trabajamos conforme a las normas oficiales mexicanas e internacionales</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
-            {normativas.map((n) => (
-              <div key={n.clave} className="bg-white border border-gray-200 rounded-xl p-5 flex gap-4 items-start">
-                <div className="bg-[#1e3a5f] text-white rounded-lg px-3 py-1 text-xs font-bold whitespace-nowrap">{n.clave}</div>
-                <div>
-                  <p className="font-semibold text-gray-800 text-sm">{n.titulo}</p>
-                  <p className="text-gray-500 text-xs mt-1">{n.alcance}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-[#1e3a5f] mb-4">Experiencia y colaboración con laboratorios</h2>
+          <p className="text-gray-600 leading-relaxed mb-4">Básculas Monterrey trabaja con laboratorios especializados para atender distintas necesidades de calibración. Algunas de estas relaciones de colaboración tienen hasta 20 años de trayectoria.</p>
+          <p className="text-gray-600 leading-relaxed">Si tu empresa requiere un certificado, trazabilidad específica o un laboratorio acreditado, indícalo al solicitar la cotización. Confirmaremos la disponibilidad, el laboratorio responsable y el alcance documental antes de contratar.</p>
         </div>
       </section>
 
@@ -177,7 +159,7 @@ export default function CalibracionPage() {
                 { paso: "01", titulo: "Contacto y diagnóstico", desc: "Escríbenos por WhatsApp o usa el formulario. Nos describes tu equipo y necesidades." },
                 { paso: "02", titulo: "Cotización sin cargo", desc: "Te enviamos una cotización detallada con el alcance del servicio, tiempo estimado y costo." },
                 { paso: "03", titulo: "Servicio en sitio o taller", desc: "Nuestros técnicos van a tu planta o recibimos el equipo en nuestro taller en Monterrey." },
-                { paso: "04", titulo: "Certificado y entrega", desc: "Entregamos el equipo calibrado con su certificado bajo norma NMX-EC-17025-IMNC-2018 (ISO/IEC 17025:2017) y reporte técnico detallado." },
+                { paso: "04", titulo: "Documentación y entrega", desc: "Se entrega la documentación acordada en la cotización, según el tipo de servicio y el laboratorio que intervenga." },
               ].map((item) => (
                 <div key={item.paso} className="relative flex gap-6 items-start">
                   <div className="flex-shrink-0 w-16 h-16 bg-[#1e3a5f] text-white rounded-full flex items-center justify-center font-extrabold text-lg z-10">
