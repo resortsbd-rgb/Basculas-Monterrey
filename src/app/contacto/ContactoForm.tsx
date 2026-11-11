@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 
 export default function ContactoForm() {
   const searchParams = useSearchParams();
@@ -141,7 +142,7 @@ export default function ContactoForm() {
 
       <label className="flex items-start gap-3 text-xs text-gray-600 leading-relaxed">
         <input type="checkbox" required checked={autorizado} onChange={(e) => setAutorizado(e.target.checked)} className="mt-1" />
-        <span>Autorizo abrir WhatsApp con los datos de esta solicitud (nombre, contacto, empresa y detalles del equipo o servicio) dirigidos a Básculas Monterrey, +52 81 1481 4111. Entiendo que debo confirmar el envío dentro de WhatsApp.</span>
+        <span>He leído el <Link href="/aviso-de-privacidad" target="_blank" className="text-blue-700 underline">Aviso de Privacidad</Link> y autorizo abrir WhatsApp con los datos de esta solicitud (nombre, contacto, empresa y detalles del equipo o servicio) dirigidos a Básculas Monterrey, +52 81 1481 4111. Entiendo que debo confirmar el envío dentro de WhatsApp.</span>
       </label>
 
       <button
