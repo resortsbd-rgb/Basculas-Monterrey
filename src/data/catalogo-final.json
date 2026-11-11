@@ -1,6 +1,6 @@
 {
   "sitio": "BasculasMonterrey.com",
-  "total_productos": 154,
+  "total_productos": 141,
   "categorias": [
     "Básculas Industriales de Piso",
     "Indicadores y Controladores",
@@ -40,32 +40,6 @@
         "https://www.ricelake.com/assets/images/exclamation-triangle.svg",
         "https://www.ricelake.com/media/vmllx0wn/1_us_monorail_scale_portable.png?mode=max&width=500&rnd=132743824406200000",
         "https://www.ricelake.com/media/kluktcov/ms200.png?width=648&height=250&mode=max"
-      ],
-      "especificaciones": []
-    },
-    {
-      "id": "survivor-ag-livestock-scale",
-      "marca": "Rice Lake",
-      "categoria": "basculas-camioneras",
-      "titulo": "SURVIVOR® AG Livestock Scale",
-      "descripcion": "The AG livestock scale packs the performance of a SURVIVOR® into a mid-size, mid-duty frame. The AG comes complete with a fabricated weighbridge for a concrete platform, load cells and mounts, as well as top access to load cells.",
-      "url_fuente": "https://www.ricelake.com/products/survivor-ag-truck-scale/",
-      "imagenes": [
-        "https://www.ricelake.com/assets/images/exclamation-triangle.svg",
-        "https://www.ricelake.com/media/k4bcj0zx/survivor_ag.png?mode=max&width=500&rnd=132519001138600000",
-        "https://www.ricelake.com/assets/images/email-icon.svg"
-      ],
-      "especificaciones": []
-    },
-    {
-      "id": "mas-p-portable-livestock-scale-youtube",
-      "marca": "Rice Lake",
-      "categoria": "basculas-ganaderas",
-      "titulo": "MAS-P Portable Livestock Scale - YouTube",
-      "descripcion": "The Legal for Trade Portable Group Animal Scale’s patented design consists of a rubberized deck and pen sides, suspended on load cells at four points within ..., The Legal for Trade Portable Group Animal Scale’s patented design consists of a rubberized deck and pen sides, suspended on load cells at four points within ...",
-      "url_fuente": "https://www.youtube.com/watch?v=_pcoz5onrlc",
-      "imagenes": [
-        "https://i.ytimg.com/vi/_pcoz5onrlc/maxresdefault.jpg"
       ],
       "especificaciones": []
     },
@@ -749,21 +723,6 @@
       "especificaciones": []
     },
     {
-      "id": "nuestras-b-sculas-basculas-metrology",
-      "marca": "Basculas Metrology",
-      "categoria": "basculas-camioneras",
-      "titulo": "Nuestras básculas | Basculas Metrology",
-      "descripcion": "Conoce la colección de pesaje más grande de todo México. Básculas porcionadoras, peso-precio, etiquetadoras, camioneras...",
-      "url_fuente": "https://www.basculasmetrology.com.mx/productos",
-      "imagenes": [
-        "https://static.wixstatic.com/media/ecc79f_7e9ef9c860ee4081b3694e66f8632515~mv2.jpg/v1/fill/w_635,h_606,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ecc79f_7e9ef9c860ee4081b3694e66f8632515~mv2.jpg",
-        "https://static.wixstatic.com/media/ecc79f_fdcd98af981a450aa375742c5ccbd0d4~mv2.jpg/v1/fill/w_635,h_606,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ecc79f_fdcd98af981a450aa375742c5ccbd0d4~mv2.jpg",
-        "https://static.wixstatic.com/media/ecc79f_24db8a2c8e2e4a7ea488a74b4b4118f9~mv2.jpg/v1/fill/w_635,h_606,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ecc79f_24db8a2c8e2e4a7ea488a74b4b4118f9~mv2.jpg",
-        "https://static.wixstatic.com/media/ecc79f_3e2fc242f41c4f20b5577a9cb2179259~mv2.jpg/v1/fill/w_381,h_398,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ecc79f_3e2fc242f41c4f20b5577a9cb2179259~mv2.jpg"
-      ],
-      "especificaciones": []
-    },
-    {
       "id": "b-scula-de-plataforma-pbp-basculas-metrology",
       "marca": "Basculas Metrology",
       "categoria": "plataformas-de-piso",
@@ -998,21 +957,6 @@
       "imagenes": [
         "https://static.wixstatic.com/media/ecc79f_7675febdba84493d886612a2197dd7e3~mv2.png/v1/fit/w_1000,h_700,q_90,enc_avif,quality_auto/ecc79f_7675febdba84493d886612a2197dd7e3~mv2.png",
         "https://static.wixstatic.com/media/ecc79f_7675febdba84493d886612a2197dd7e3~mv2.png/v1/fit/w_1000,h_685,q_90,enc_avif,quality_auto/ecc79f_7675febdba84493d886612a2197dd7e3~mv2.png"
-      ],
-      "especificaciones": []
-    },
-    {
-      "id": "b-scula-etiquetadora-bie-30c-basculas-metrology",
-      "marca": "Basculas Metrology",
-      "categoria": "basculas-aereas",
-      "titulo": "Báscula Etiquetadora BIE-30C | Basculas Metrology",
-      "descripcion": "​Capacidad de 30kg con división mín. dual de 5/10g, Display LCD en Gabinete Frontal y Posterior, 63 teclas de acceso directo con 3 niveles de selección, Impresión térmica directa, Puertos de comun. para transferencia de datos (Ethernet, USB y RS-232) y conexión a WiFi, Formatos de impresión y códigos de barra editables en diferentes formatos y de uso simultaneo, Teclado botonera, Reportes de venta de hasta 32 meses, Interconexión a punto de venta, Administración de inventario, Software Incluido.",
-      "url_fuente": "https://www.basculasmetrology.com.mx/bascula-etiquetadora-colgante-bie-30c",
-      "imagenes": [
-        "https://static.wixstatic.com/media/ecc79f_6457d951c0094584b8728ad172032cea~mv2.png/v1/fit/w_1000,h_590,q_90,enc_avif,quality_auto/ecc79f_6457d951c0094584b8728ad172032cea~mv2.png",
-        "https://static.wixstatic.com/media/ecc79f_ab07e4a4324a4cd8877305d6aa9241bc~mv2.png/v1/fit/w_1000,h_590,q_90,enc_avif,quality_auto/ecc79f_ab07e4a4324a4cd8877305d6aa9241bc~mv2.png",
-        "https://static.wixstatic.com/media/ecc79f_23ceb4b7f2e14877bde5bcacab76929f~mv2.png/v1/fit/w_1000,h_590,q_90,enc_avif,quality_auto/ecc79f_23ceb4b7f2e14877bde5bcacab76929f~mv2.png",
-        "https://static.wixstatic.com/media/ecc79f_6979d97ab1df48c193380b019532df16~mv2.png/v1/fit/w_1000,h_590,q_90,enc_avif,quality_auto/ecc79f_6979d97ab1df48c193380b019532df16~mv2.png"
       ],
       "especificaciones": []
     },
@@ -1271,18 +1215,6 @@
       "especificaciones": []
     },
     {
-      "id": "digi-dc-788-counting-scale",
-      "marca": "Rice Lake",
-      "categoria": "plataformas-de-piso",
-      "titulo": "Báscula Contadora DIGI® DC-788",
-      "descripcion": "Báscula contadora económica con capacidad hasta 100 libras. Perfecta para control de inventario.",
-      "url_fuente": "https://www.ricelake.com/products/digi-dc-788-series-counting-scale/",
-      "imagenes": [
-        "https://www.ricelake.com/media/uflly1hx/web_sc_digi-788.png"
-      ],
-      "especificaciones": []
-    },
-    {
       "id": "ohaus-ranger-count-3000",
       "marca": "Rice Lake",
       "categoria": "plataformas-de-piso",
@@ -1375,30 +1307,6 @@
       "url_fuente": "https://www.ricelake.com/products/survivor-pt-pit-type-truck-scale/",
       "imagenes": [
         "https://www.ricelake.com/media/4bonjw2q/pt-2.jpg"
-      ],
-      "especificaciones": []
-    },
-    {
-      "id": "survivor-multi-platform",
-      "marca": "Rice Lake",
-      "categoria": "basculas-camioneras",
-      "titulo": "Báscula para Camión SURVIVOR® Multi-plataforma",
-      "descripcion": "Múltiples configuraciones de plataforma con tamaños modulares determinados por el espaciado de ejes del camión.",
-      "url_fuente": "https://www.ricelake.com/products/survivor-multi-platform-truck-scale/",
-      "imagenes": [
-        "https://www.ricelake.com/media/f2pjrxpk/multiplatform.png"
-      ],
-      "especificaciones": []
-    },
-    {
-      "id": "survivor-otr-lp-low-profile",
-      "marca": "Rice Lake",
-      "categoria": "basculas-camioneras",
-      "titulo": "Báscula para Camión SURVIVOR® OTR-LP Perfil Bajo",
-      "descripcion": "Solución de reemplazo con cubierta de acero de perfil bajo para fundaciones preexistentes.",
-      "url_fuente": "https://www.ricelake.com/products/survivor-otr-lp-low-profile-steel-deck-truck-scale/",
-      "imagenes": [
-        "https://www.ricelake.com/media/wmzjmz1s/otrlp.png"
       ],
       "especificaciones": []
     },
@@ -1639,78 +1547,6 @@
       "url_fuente": "https://www.ricelake.com/products/mas-m-mobile-animal-scale/",
       "imagenes": [
         "https://www.ricelake.com/media/2ztfaz4u/web_sc_mas_m.png"
-      ],
-      "especificaciones": []
-    },
-    {
-      "id": "mas-p-portable-animal-scale-rl",
-      "marca": "Rice Lake",
-      "categoria": "basculas-ganaderas",
-      "titulo": "Báscula Animal Portátil MAS-P",
-      "descripcion": "Diseño patentado con cubierta de goma y lados de corral, suspendida en celdas de carga en cuatro puntos.",
-      "url_fuente": "https://www.ricelake.com/products/mas-p-portable-animal-scale/",
-      "imagenes": [
-        "https://www.ricelake.com/media/gxcebwen/_portals_0_products_00f70ce2dde54bff9732d2e605a6b9b7-orig.png"
-      ],
-      "especificaciones": []
-    },
-    {
-      "id": "mas-lc-stationary-animal-scale",
-      "marca": "Rice Lake",
-      "categoria": "basculas-ganaderas",
-      "titulo": "Báscula Animal Estacionaria MAS-LC",
-      "descripcion": "Proporciona pesaje confiable y preciso para ganaderos y procesadores que prefieren un sistema de pesaje basado en celdas de carga.",
-      "url_fuente": "https://www.ricelake.com/products/mas-lc-stationary-animal-scale/",
-      "imagenes": [
-        "https://www.ricelake.com/media/giznkpcg/web_sc_mas_lc.png"
-      ],
-      "especificaciones": []
-    },
-    {
-      "id": "sas-single-animal-scale",
-      "marca": "Rice Lake",
-      "categoria": "basculas-ganaderas",
-      "titulo": "Báscula para Animal Individual SAS",
-      "descripcion": "La respuesta de Rice Lake para entornos de pesaje de ganado que prefieren pesaje de un solo animal.",
-      "url_fuente": "https://www.ricelake.com/products/sas-single-animal-scale/",
-      "imagenes": [
-        "https://www.ricelake.com/media/x2jpi0ut/web_sc_sas_livestockscale.png"
-      ],
-      "especificaciones": []
-    },
-    {
-      "id": "roughdeck-slv-livestock-scale",
-      "marca": "Rice Lake",
-      "categoria": "basculas-ganaderas",
-      "titulo": "Báscula Ganadera RoughDeck® SLV para Animal Individual",
-      "descripcion": "Ofrece las características de una báscula de piso RoughDeck® modificada para las demandas del pesaje de ganado.",
-      "url_fuente": "https://www.ricelake.com/products/roughdeck-slv-single-animal-livestock-scale/",
-      "imagenes": [
-        "https://www.ricelake.com/media/o3ioxyxr/_portals_0_products_41966aeaced647eba3ccff35d95de604-orig.png"
-      ],
-      "especificaciones": []
-    },
-    {
-      "id": "farm-bars-380-indicator",
-      "marca": "Rice Lake",
-      "categoria": "basculas-ganaderas",
-      "titulo": "Farm Bars con Indicador 380",
-      "descripcion": "Barras de granja resistentes montables bajo cajones de compresión para ganado, jaulas para cerdos, tolvas y plataformas personalizadas.",
-      "url_fuente": "https://www.ricelake.com/products/farm-bars-with-380-indicator/",
-      "imagenes": [
-        "https://www.ricelake.com/media/1lslbxw2/1_web_sc_farmbar_380.png"
-      ],
-      "especificaciones": []
-    },
-    {
-      "id": "survivor-lv-livestock-ring-scale",
-      "marca": "Rice Lake",
-      "categoria": "basculas-ganaderas",
-      "titulo": "Báscula de Anillo Ganadera SURVIVOR® LV",
-      "descripcion": "Sistema total para uso en corrales de ganado nuevos o existentes o plantas de procesamiento.",
-      "url_fuente": "https://www.ricelake.com/products/survivor-lv-livestock-ring-scale/",
-      "imagenes": [
-        "https://www.ricelake.com/media/w4vc5fza/_portals_0_products_abe9945618b24189a589307ccd549bf9-orig.png"
       ],
       "especificaciones": []
     },
