@@ -1,8 +1,10 @@
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata = {
   title: "Calibración y Mantenimiento | Básculas Monterrey",
   description: "Servicio de calibración y mantenimiento de básculas industriales en Monterrey bajo norma NMX-EC-17025-IMNC-2018 (ISO/IEC 17025:2017). Certificación, ajuste y verificación de equipos de pesaje.",
+  alternates: { canonical: "/calibracion" },
 };
 
 const servicios = [
@@ -54,6 +56,15 @@ const normativas = [
 export default function CalibracionPage() {
   return (
     <div>
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: "Calibración y mantenimiento de básculas industriales",
+        serviceType: "Calibración, mantenimiento preventivo y correctivo de básculas industriales",
+        url: "https://www.basculasmonterrey.com/calibracion",
+        provider: { "@id": "https://www.basculasmonterrey.com/#organizacion" },
+        areaServed: { "@type": "Place", name: "Monterrey, Nuevo León, México" },
+      }} />
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-[#0d1f35] via-[#1e3a5f] to-[#0d2844] text-white py-16 px-4 overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-1 bg-[#e8770a]" />
