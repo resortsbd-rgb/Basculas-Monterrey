@@ -53,6 +53,25 @@ const normativas = [
   { clave: "ISO 9001:2015", titulo: "Sistema de Gestión de Calidad", alcance: "Procesos de calibración y mantenimiento" },
 ];
 
+const preguntasFrecuentes = [
+  {
+    pregunta: "¿Qué información necesito para cotizar la calibración de una báscula?",
+    respuesta: "Comparte la marca y modelo, capacidad máxima, ubicación del equipo y el servicio que necesitas. Si tienes fotografías de la placa de datos o del indicador, pueden ayudar al diagnóstico inicial.",
+  },
+  {
+    pregunta: "¿Puedo solicitar mantenimiento de una báscula industrial que ya tengo?",
+    respuesta: "Sí. Puedes solicitar una evaluación de mantenimiento preventivo o correctivo. Indica el tipo de báscula, la falla o síntoma y dónde está instalada para determinar los siguientes pasos.",
+  },
+  {
+    pregunta: "¿Realizan servicios en planta o debo trasladar el equipo?",
+    respuesta: "La página contempla atención en sitio o taller. Confirma con el asesor la modalidad disponible para tu equipo, localidad y tipo de trabajo antes de programar el servicio.",
+  },
+  {
+    pregunta: "¿Qué documento recibiré después de una calibración?",
+    respuesta: "Solicita previamente el alcance, el tipo de informe o certificado ofrecido y los requisitos de trazabilidad o acreditación que exige tu empresa. La documentación aplicable depende del servicio contratado.",
+  },
+];
+
 export default function CalibracionPage() {
   return (
     <div>
@@ -171,6 +190,33 @@ export default function CalibracionPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Preguntas frecuentes orientadas a compradores industriales */}
+      <section className="py-16 px-4 bg-gray-50" aria-labelledby="preguntas-frecuentes">
+        <div className="max-w-4xl mx-auto">
+          <h2 id="preguntas-frecuentes" className="text-3xl font-bold text-[#1e3a5f] text-center mb-3">
+            Preguntas frecuentes sobre calibración y mantenimiento
+          </h2>
+          <p className="text-gray-600 text-center mb-8">
+            Información para preparar tu solicitud de servicio en Monterrey y su área metropolitana.
+          </p>
+          <div className="space-y-4">
+            {preguntasFrecuentes.map(({ pregunta, respuesta }) => (
+              <details key={pregunta} className="bg-white border border-gray-200 rounded-xl p-5 group">
+                <summary className="font-semibold text-[#1e3a5f] cursor-pointer list-none flex items-center justify-between gap-4">
+                  {pregunta}<span aria-hidden="true" className="text-[#e8770a] text-xl">+</span>
+                </summary>
+                <p className="text-gray-600 text-sm leading-relaxed mt-3">{respuesta}</p>
+              </details>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/contacto?producto=Calibraci%C3%B3n%20o%20mantenimiento%20industrial" className="inline-block bg-[#1e3a5f] hover:bg-[#0d2844] text-white font-semibold px-7 py-3 rounded-lg">
+              Solicitar evaluación de mi equipo
+            </Link>
           </div>
         </div>
       </section>
