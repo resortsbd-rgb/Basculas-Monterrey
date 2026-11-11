@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${origin}/catalogo`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${origin}/calibracion`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${origin}/contacto`, changeFrequency: "yearly", priority: 0.5 },
+    { url: `${origin}/aviso-de-privacidad`, changeFrequency: "yearly", priority: 0.2 },
   ];
 
   const productPages: MetadataRoute.Sitemap = getProductos().map(({ id }) => ({
