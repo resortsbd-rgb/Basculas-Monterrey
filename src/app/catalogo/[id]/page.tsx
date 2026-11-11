@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { getProductoById, getProductos, getImagenProducto } from "@/lib/catalogo";
+import JsonLd from "@/components/JsonLd";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: `${producto.titulo} | Básculas Monterrey`,
     description: producto.descripcion || `${producto.titulo} - ${producto.marca}`,
+    alternates: { canonical: `/catalogo/${encodeURIComponent(id)}` },
   };
 }
 
@@ -32,6 +34,15 @@ export default async function ProductoPage({ params }: Props) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: producto.titulo,
+        description: producto.descripcion,
+        brand: { "@type": "Brand", name: producto.marca },
+        image: imagen !== "/placeholder.jpg" ? imagen : undefined,
+        url: `https://www.basculasmonterrey.com/catalogo/${encodeURIComponent(id)}`,
+      }} />
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-[#1e3a5f]">Inicio</Link>
