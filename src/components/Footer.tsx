@@ -36,7 +36,6 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <span className="bg-[#e8770a] text-white text-xs px-3 py-1 rounded-full font-semibold">Rice Lake Distribuidor Autorizado</span>
-              <span className="border border-blue-400 text-blue-200 text-xs px-3 py-1 rounded-full">ISO 9001</span>
             </div>
           </div>
 
@@ -48,6 +47,7 @@ export default function Footer() {
               <li><Link href="/catalogo" className="hover:text-white transition-colors">Catálogo de Productos</Link></li>
               <li><Link href="/calibracion" className="hover:text-white transition-colors">Calibración y Mantenimiento</Link></li>
               <li><Link href="/contacto" className="hover:text-white transition-colors">Contacto / Cotizar</Link></li>
+              <li><Link href="/aviso-de-privacidad" className="hover:text-white transition-colors">Aviso de Privacidad</Link></li>
             </ul>
           </div>
 
